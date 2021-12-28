@@ -1,0 +1,19 @@
+h1{
+    font-size: 40px;
+}
+#name{
+    /*font-family: 'Dancing Script', cursive;*/
+    color: orange;
+}
+body{
+    font-family: 'Inconsolata', monospace;
+}
+.halfwidth{
+    width: 40%;
+    float: left;
+    padding-left: 2%;
+    margin-left: 5%;
+}
+.halfwidth img{
+    width: 100%;
+}
