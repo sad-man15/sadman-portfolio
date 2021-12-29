@@ -4,8 +4,10 @@ h1{
 h2{
     font-size: 30px;
 }
-#name{
-    /*font-family: 'Dancing Script', cursive;*/
+p{
+    color: dimgray;
+}
+.orange{
     color: orange;
 }
 body{
@@ -28,6 +30,7 @@ body{
 }
 section{
     height: 500px;
+    padding-bottom: 150px;
 }
 .button{
     text-decoration: none;
@@ -36,8 +39,35 @@ section{
     color: white;
     font-weight: 700;
 }
-.dream{
+.dream-area{
     background-image: url("images/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
+}
+.single-exp{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 80%;
+}
+.experience-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(360deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#learner{
+    border-left: 7px solid;
+    border-image: linear-gradient(360deg, blue, cyan);
+    border-image-slice: 1;
+}
+.halfwidth img{
+    width: 100%;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
 }
