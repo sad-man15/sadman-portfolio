@@ -1,12 +1,17 @@
 h1{
     font-size: 40px;
 }
+h2{
+    font-size: 30px;
+}
 #name{
     /*font-family: 'Dancing Script', cursive;*/
     color: orange;
 }
 body{
+    margin: 0%;
     font-family: 'Inconsolata', monospace;
+    text-align: justify;
 }
 .halfwidth{
     width: 40%;
@@ -16,4 +21,23 @@ body{
 }
 .halfwidth img{
     width: 100%;
+}
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,lightsalmon,tomato);
+    padding: 10px 20px;
+    color: white;
+    font-weight: 700;
+}
+.dream{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
 }
